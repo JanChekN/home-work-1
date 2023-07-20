@@ -1,5 +1,5 @@
-def is_palindrome(s):
-    return s.lower() == s.lower()[::-1]
+def is_palindrome(isp):
+    return isp.lower() == isp.lower()[::-1]
 
 is_pal = is_palindrome(input('Напишите текст для проверки на палиндром>> '))
 
